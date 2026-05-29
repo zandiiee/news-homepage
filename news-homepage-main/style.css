@@ -1,0 +1,56 @@
+body{
+    font-family: 'Inter-VariableFont_slnt,wght';
+}
+
+
+#main{
+    display:flex;
+    text-align: end;
+    color:hsl(233, 8%, 79%);
+}
+#main p{
+    margin-left:60%;
+}
+#logo{
+    text-align: start;
+    display:block;
+    margin-left: 100px;
+}
+#bright{
+    display:block;
+    margin-top: 100px;
+}
+#info{
+    display:block;
+    background-color:hsl(240, 100%, 5%) ;
+    color:white;
+    width:450px;
+    height:550px;
+    padding-left: 50px;
+}
+#dive{
+    display:block;
+    text-align: center;
+    color:hsl(233, 8%, 79%) ;
+}
+#button{
+    font-family:'Inter-VariableFont_slnt,wght';
+    font-size: larger;
+    background-color:  hsl(5, 85%, 63%);
+    color: hsl(240, 100%, 5%);
+    border:0px;
+    width:150px;
+    height: 50px;
+    justify-content: center;
+}
+.bottom{
+    display: flex;
+    gap:30px;
+    
+}
+@font-face {
+    font-family:'Inter-VariableFont_slnt,wght' ;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-style: normal;
+}
+    
