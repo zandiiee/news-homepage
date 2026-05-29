@@ -6,7 +6,7 @@ body{
 #main{
     display:flex;
     text-align: end;
-    color:hsl(233, 8%, 79%);
+    color:hsl(240, 3%, 68%);
 }
 #main p{
     margin-left:60%;
@@ -31,22 +31,38 @@ body{
 #dive{
     display:block;
     text-align: center;
-    color:hsl(233, 8%, 79%) ;
+    color:hsl(225, 2%, 60%) ;
 }
 #button{
     font-family:'Inter-VariableFont_slnt,wght';
-    font-size: larger;
+    font-size:x-large;
     background-color:  hsl(5, 85%, 63%);
     color: hsl(240, 100%, 5%);
     border:0px;
     width:150px;
     height: 50px;
     justify-content: center;
+    display:block;
+    margin-top: 20px;
+    margin-left:700px;
 }
 .bottom{
     display: flex;
-    gap:30px;
-    
+}
+#one{
+    display:flex;
+    align-items: center; 
+     gap: 15px;
+}
+#two{
+    display: flex;
+    align-items: center; 
+     gap: 15px;
+}
+#three{
+    display: flex;
+    align-items: center; 
+     gap: 15px;
 }
 @font-face {
     font-family:'Inter-VariableFont_slnt,wght' ;
